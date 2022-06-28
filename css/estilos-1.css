@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E11364;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-color:#BC105C;
+    color: #FFFFFF;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25x;
+    padding: 25px;
+    border-left: 5px solid #FFFFFF;
+    border-right: 5px solid #FFFFFF;
+    font-size: 25px;    
+}
+
+.contenedor-mayor{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    background-color: #BC105C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+article{
+    background-color: #FAFBFC;
+    width: 98%;
+    height: 100%;
+    margin: 35px;
+    border-radius: 5px;
+}
+
+img{
+    padding: 10px;
+    width: 100%;
+}
+
+h2{
+    color: #FAFBFC;
+    font-size: 25px;
+    align-self: flex-start;
+    padding: 10px;
+    margin-top:15px;
+    margin-left: 20px;
+    
+}
+h3{
+    color: #BC105C;
+    font-size:20px;
+    text-align: right;
+    padding: 10px;
+    border-bottom: 3px #BC105C dotted;
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+.buttom{
+    display: flex;
+    justify-content: center;
+}
+
+.estilo-buttom{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: green;
+    color: white;
+    border-radius: 5%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.estilo-buttom:hover{
+    background-color: #E11364;
+}
+
+
+.contenedor-footer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer{
+    background-color:#E96093;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+
+a:link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.botoninicio{
+    display: flex;
+    justify-content: end;
+}
+
+
+.contenedor-analisis{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 20px;
+    }
